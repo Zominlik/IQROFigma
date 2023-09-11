@@ -1,0 +1,11 @@
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+    background-color: linear-gradient(180deg, #131A15 0%, #090B3A 100%);
+    color: white;
+}
+
+.activeStyle {
+    /* border-bottom: 4px solid #000; */
+}
