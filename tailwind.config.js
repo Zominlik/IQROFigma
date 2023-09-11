@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'heroImg': "url('../assets/img/Phone_Images.png')"
+        'heroImg': "url('../assets/img/Phone_.png')"
       },
       backgroundSize : {
         heroImg: "200px, 100%",
