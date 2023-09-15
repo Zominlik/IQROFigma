@@ -1,8 +1,10 @@
-import React, { memo } from 'react'
+import { memo } from 'react'
 
-const Button = ({ setStateForm, setHandleClickTestimonial, children, btnType, style }) => {
+const Button = ({ handleClickTestimonial, setHandleClickTestimonial, children, btnType, className }) => {
     return (
-        <button onClick={(prev) => setHandleClickTestimonial(!prev)} style={style} type={btnType}>{children}</button>
+        <button onClick={() => setHandleClickTestimonial(!handleClickTestimonial)} className={className} type={btnType}>
+            {children}
+        </button>
     )
 }
 

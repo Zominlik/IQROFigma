@@ -1,17 +1,17 @@
-import React, { memo } from 'react'
+import { memo } from 'react'
 import { NavLink } from 'react-router-dom'
 import phoneOutgoing from '../assets/Icons/phone-outgoing.svg'
 import burgerLogo from '../assets/Logos/burgerLogo.png'
 
 
-const ModalItem = () => {
+const ModalItem = ({ toggle, setToggle }) => {
 
     return (
-        <ul className="modalItems bg-white hidden static sm:fixed sm:top-0 sm:right-0 sm:fixed xs:top-0 sm:right-0">
+        <ul className="modalItems bg-white sm-w-[20.875rem] sm-h-[52.313rem] text-[#000] p-[3.938rem] flex flex-col items-end gap-[3.125rem]    sm:fixed sm:top-0 sm:right-0 xs:top-0 sm:right-0">
             <li className="modalItem">
-                <NavLink to='/' className="header_item">
-                    <img onClick={(prev) => setToggle(!prev)} className='h-[2.938rem] xs:block sm:h-[2.938rem] md:hidden lg:hidden xl:hidden xxl:hidden' src={burgerLogo} alt="burgerlogo" />
-                </NavLink>
+                <a href='#services' id='services' onClick={() => setToggle(!toggle)} className="header_item">
+                    <img className='h-[2.938rem] xs:block sm:h-[2.938rem]' src={burgerLogo} alt="burgerlogo" />
+                </a>
             </li>
             <li className="modalItem">
                 <NavLink to='/' className="header_item">

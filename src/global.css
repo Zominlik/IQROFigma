@@ -9,3 +9,8 @@ body {
 .activeStyle {
     /* border-bottom: 4px solid #000; */
 }
+
+.header {
+    position: sticky;
+    top: 0;
+}
