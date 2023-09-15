@@ -11,7 +11,7 @@ import HeroImg1 from '../assets/img/Phone_Images1.png'
 const HeroSection = () => {
     return (
         <>
-            <article className=' relative  w-full'>
+            <article id='hero' className=' relative  w-full'>
                 <div className="heroWrapper          xs:flex xs:flex-col xs:items-center xs:gap-[18rem] xs:h-[55rem] xs:pt-[2rem]  xs:max-w-[53.5625rem]          sm:flex sm:flex-col sm:items-center sm:gap-[24rem] sm:py-[2rem]           md:flex md:flex-col md:gap-[3rem] md:px-[2rem] md:py-[5rem]                   lg:flex lg:flex-col lg:gap-[3rem] lg:px-[3rem] lg:py-[5rem]                      xl:flex xl:flex-col xl:gap-[5rem] xl:py-[5rem] xl:h-[36rem]          xxl:flex xxl:flex-col  xxl:gap-[5.25rem] xxl:pt-[4.4375rem] xxl:pb-[15.375rem] xxl:h-[36rem]">
                     <div className="heroTextWrapper xs:flex xs:flex-col xs:gap-[4rem]       sm:flex sm:flex-col sm:justify-center sm:items-center sm:gap-[3rem] sm:max-w-[33rem] sm:px-[4rem]         md:flex md:flex-col md:gap-[3rem] md:max-w-[23rem]           lg:flex lg:flex-col lg:gap-[3rem] lg:max-w-[33rem]          xl:flex xl:flex-col xl:max-w-[33rem] xl:gap-[2rem]          xxl:flex xxl:flex-col xxl:gap-[2rem]  xxl:max-w-[50rem]">
                         <Titles heading='Разаработка сайтов и мобильных приложений'

@@ -1,4 +1,4 @@
-import React, { memo } from 'react'
+import { memo } from 'react'
 import iqrologo from '../assets/Logos/IQROLogo.png'
 
 const IQROLogo = () => {
