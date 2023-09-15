@@ -11,7 +11,7 @@ const Main = () => {
     return (
         <main className='flex flex-col justify-center items-center xs:px-[4.875rem] xl:px-[5rem] xxl:px-[7rem]'>
             <HeroSection />
-            <div id='services' className="mainServicesWrapper flex flex-col items-center gap-[2rem]">
+            <div id="Услуги" className="mainServicesWrapper flex flex-col items-center gap-[2rem]">
                 <Titles heading='Услуги' className='testimonialTitle xs:text-[2.8125rem] xs:font-semibold xs:leading-[3.4375rem]            sm:text-[1.395rem] sm:font-medium sm:leading-[1.7442rem]             md:text-[1.8887rem] md:font-medium md:leading-[2.3609rem]              lg:text-[2.5rem] lg:font-medium lg:leading-[3.125rem]              xl:text-[2.8rem] xl:font-medium xl:leading-[3.4rem]                xxl:text-[3.1rem] xxl:font-medium xxl:leading-[3.8rem]' />
                 <div className="cardWrapper        xs:flex xs:flex-col xs:px-[2rem] xs:gap-[2rem]         sm:flex sm:flex-col sm:px-[2rem] sm:gap-[2rem]            md:flex md:px-[2rem] md:gap-[2rem]            lg:grid lg:grid-cols-3  lg:gap-[2rem]             xl:grid xl:grid-cols-3  xl:gap-[3rem]   xxl:grid xxl:grid-cols-3  xxl:gap-[4rem]">
                     <div className='xs:flex xs:flex-col xs:gap-[2rem] sm:flex sm:flex-col sm:gap-[3rem]            md:flex md:flex-col md:justify-center md:items-center md:gap-[2rem]           lg:flex lg:flex-col lg:justify-center lg:items-center lg:gap-[2rem]               xl:flex xl:flex-col xl:justify-center xl:items-center xl:gap-[2rem]            xxl:flex xxl:flex-col xxl:justify-center xxl:items-center xxl:gap-[3rem]'>

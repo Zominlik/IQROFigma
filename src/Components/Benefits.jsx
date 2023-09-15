@@ -6,7 +6,7 @@ import SearchIcon from './SearchIcon'
 
 const Benefits = () => {
     return (
-        <section className='pt-[2.5rem] flex flex-col justify-center items-center gap-[2rem]'>
+        <section id='benefits' className='pt-[2.5rem] flex flex-col justify-center items-center gap-[2rem]'>
             <Titles heading='Как мы работаем'
                 className='testimonialTitle xs:text-[2.8125rem] xs:font-semibold xs:leading-[3.4375rem]            sm:text-[1.395rem] sm:font-medium sm:leading-[1.7442rem]             md:text-[1.8887rem] md:font-medium md:leading-[2.3609rem]              lg:text-[2.5rem] lg:font-medium lg:leading-[3.125rem]              xl:text-[2.8rem] xl:font-medium xl:leading-[3.4rem]                xxl:text-[3.1rem] xxl:font-medium xxl:leading-[3.8rem]' />
             <div className='benefitsWrapper          xs:flex xs:flex-col xs:items-center xs:gap-y-[2rem] xs:m-auto        sm:flex sm:flex-col sm:items-center sm:mx-auto          lg:flex lg:flex-col lg:gap-[2rem]             xxl:flex xxl:flex-col xxl:gap-[3rem]'>

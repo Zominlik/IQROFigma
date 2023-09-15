@@ -5,7 +5,7 @@ import SuccessIconComp from './SuccessIcon'
 
 const About = () => {
     return (
-        <section className='aboutSection '>
+        <section id='about' className='aboutSection '>
             <div className='sm:px-[2rem] px-[4rem] flex flex-col'>
                 <Titles heading='Что даст вашему бизнесу внедрение Digital-инструментов' className="servicesTitle text-start py-[4rem]       xs:text-center xs:text-2xl xs:font-semibold xs:leading-[48px]           text-center text-4xl font-extrabold leading-[68px] mb-[1rem]" />
                 <div className="aboutCardsBox xs:flex xs:flex-col xs:items-center xs:gap-y-[2rem] xs:m-auto        sm:flex sm:flex-col sm:justify-between sm:items-center sm:gap-y-[3.125rem] sm:mx-auto         md:flex md:justify-center md:items-center md:gap-[2rem] md:mx-auto            lg:flex lg:justify-center lg:items-center lg:gap-[3rem]                 xl:flex xl:justify-center xl:items-center xl:gap-[3rem]       xxl:grid xxl:grid-cols-3 xxl:justify-center xxl:items-center xxl:gap-[6rem] ">
