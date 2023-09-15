@@ -5,15 +5,14 @@ import Titles from './Titles'
 import Benefits from './Benefits'
 import About from './About'
 import Testimonial from './Testimonial'
-import IQROLogo from './IQROLogo'
 
 
 const Main = () => {
     return (
         <main className='flex flex-col justify-center items-center xs:px-[4.875rem] xl:px-[5rem] xxl:px-[7rem]'>
             <HeroSection />
-            <div id='services' className="mainServicesWrapper flex flex-col items-center">
-                <Titles heading='Услуги' />
+            <div id='services' className="mainServicesWrapper flex flex-col items-center gap-[2rem]">
+                <Titles heading='Услуги' className='testimonialTitle xs:text-[2.8125rem] xs:font-semibold xs:leading-[3.4375rem]            sm:text-[1.395rem] sm:font-medium sm:leading-[1.7442rem]             md:text-[1.8887rem] md:font-medium md:leading-[2.3609rem]              lg:text-[2.5rem] lg:font-medium lg:leading-[3.125rem]              xl:text-[2.8rem] xl:font-medium xl:leading-[3.4rem]                xxl:text-[3.1rem] xxl:font-medium xxl:leading-[3.8rem]' />
                 <div className="cardWrapper        xs:flex xs:flex-col xs:px-[2rem] xs:gap-[2rem]         sm:flex sm:flex-col sm:px-[2rem] sm:gap-[2rem]            md:flex md:px-[2rem] md:gap-[2rem]            lg:grid lg:grid-cols-3  lg:gap-[2rem]             xl:grid xl:grid-cols-3  xl:gap-[3rem]   xxl:grid xxl:grid-cols-3  xxl:gap-[4rem]">
                     <div className='xs:flex xs:flex-col xs:gap-[2rem] sm:flex sm:flex-col sm:gap-[3rem]            md:flex md:flex-col md:justify-center md:items-center md:gap-[2rem]           lg:flex lg:flex-col lg:justify-center lg:items-center lg:gap-[2rem]               xl:flex xl:flex-col xl:justify-center xl:items-center xl:gap-[2rem]            xxl:flex xxl:flex-col xxl:justify-center xxl:items-center xxl:gap-[3rem]'>
                         <div className="servicesBo min-h-[11.5rem] flex flex-col justify-between p-[1.5rem] items-start           xs:p-[1.8125rem] xs:border rounded-3xl xs:border-green-400             sm:min-h-[17.5rem] sm:border sm:border-green-400 sm:min-w-[18.5rem] sm:p-[3.8125rem] rounded-3xl            md:max-w-[14.8309rem] md:flex md:border rounded-3xl md:border-green-400           lg:max-w-[16.8309rem] lg:min-h-[14.167rem] lg:p-[3rem] lg:border rounded-3xl lg:border-green-400              xl:min-w-[18.8309rem] xl:min-h-[14.167rem] xl:p-[3rem] xl:border rounded-3xl xl:border-green-400            xxl:min-w-[20.8309rem] xxl:min-h-[16.167rem] xxl:p-[3rem] xxl:md:flex xxl:border rounded-3xl xxl:border-green-400">
